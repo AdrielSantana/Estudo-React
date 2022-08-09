@@ -11,12 +11,14 @@ const DescriptionWithLink = (props) => {
             <Fragment>
                 <p>{props.description}</p>
                 <a target="_blank" rel="noreferrer" href={props.url}>{props.url}</a>
+                <br/><br/>
             </Fragment>
         )
     } else {
         return ( 
             <Fragment>
                 <p>{props.description}</p>
+                <br/><br/>
             </Fragment>
         )  
     }
