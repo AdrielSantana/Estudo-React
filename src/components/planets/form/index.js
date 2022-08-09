@@ -1,14 +1,14 @@
 import React, { Fragment, useState } from 'react'
 
 const initialState = {
-    name: null,
-    description: null,
-    url: null,
-    img_url: null
+    name: '',
+    description: '',
+    url: '',
+    img_url: ''
 }
 
 const Form = (props) => {
-    const [fields, setFields] = useState({ initialState })
+    const [fields, setFields] = useState(initialState)
 
     const handleFieldsChange = event => setFields({
         ...fields,
