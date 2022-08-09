@@ -1,10 +1,10 @@
 import React, { Fragment, useState } from 'react'
 
 const initialState = {
-    name: '',
-    description: '',
-    url: '',
-    img_url: ''
+    name: null,
+    description: null,
+    url: null,
+    img_url: null
 }
 
 const Form = (props) => {
